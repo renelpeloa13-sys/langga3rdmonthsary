@@ -1,4 +1,4 @@
-const images = ["images/img1.png", "images/img2.png", "images/img3.png"];
+const images = ["img1.png", "img2.png", "img3.png"];
 const messages = [
   "I didn't know three months could mean so much… until I spent them with you. Miss taka Everyday and gustohon ko man nga ipa feel simo nga special ka everyday, nga treat ka or lagaw ta sa sbng hindi ko pa kaya pero ma abot gid ang time nga ma ubra ta tann nga gusto ta langga ha ?",
   "Every day with you feels like a hidden level in the game of life – magical, rare, and worth fighting for. Ma padayun lang kita langga always ah. Upod kita. and i hope hindi ka ma tak an mag upod sakon ma ubra sang journey ta.. malayo pa pero malayo na! ",
@@ -21,3 +21,4 @@ imgElement.addEventListener("click", () => {
     document.querySelector(".center-content").appendChild(msg);
   }
 });
+
