@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: radial-gradient(circle at center, #1a001a, #0a0a0a);
+  color: #fff;
+}
+
+.center-content {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #ff4dff;
+  text-shadow: 0 0 10px #ff4dff, 0 0 20px #660066;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.clickable,
+.mystery-img {
+  width: 180px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: drop-shadow(0 0 10px #ff1aff);
+}
+
+.clickable:hover,
+.mystery-img:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 20px #ff66cc);
+}
